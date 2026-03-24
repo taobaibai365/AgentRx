@@ -1824,7 +1824,7 @@ def main():
                         help='Path to trajectory log file or directory')
     parser.add_argument('--ground_truth_file', default='ground_truth_tau_retail.json',
                         help='Path to ground truth JSON file for accuracy evaluation')
-    parser.add_argument('--endpoint', default='azure', choices=['azure', 'trapi'],
+    parser.add_argument('--endpoint', default=g.DEFAULT_ENDPOINT, choices=['azure', 'trapi'],
                         help='LLM API endpoint to use')
     parser.add_argument('--with-context', action='store_true',
                         help='Include invariant violation context in prompts')

@@ -1,5 +1,7 @@
 __pycache__/
 .env
-.env.example
 runs/
 src/invariants/dynamic_invariant_outputs/
+papers/
+related_works.md
+partners/
